@@ -1,0 +1,6 @@
+name: api
+command: ["bash"]
+forward:
+  - 80:80
+persistentVolume:
+  enabled: false
